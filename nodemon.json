@@ -1,0 +1,14 @@
+{
+  "watch": [
+    "server.js",
+    "controllers",
+    "routes",
+    "models",
+    "util",
+    "middleware",
+    "config"
+  ],
+  "ext": "js,json",
+  "legacyWatch": true,
+  "pollingInterval": 1000
+}
