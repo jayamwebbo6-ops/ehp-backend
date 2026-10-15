@@ -1,2 +1,73 @@
-node_modules
-logs
+# Node dependencies
+node_modules/
+package-lock.json.bak
+
+# Environment variables & credentials
+.env
+.env.*
+!.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database backups & dumps
+backups/*
+!backups/.gitkeep
+*.dump
+*.sql
+*.bson
+
+# Uploaded assets & files
+uploads/*
+!uploads/.gitkeep
+uploads/**/
+!uploads/**/.gitkeep
+
+# Application logs & process output
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Puppeteer / Headless Chrome caches
+.local-chromium/
+.cache/puppeteer/
+puppeteer_dump/
+
+# Temporary, debug & scratch files
+debug.html
+tmp/
+temp/
+*.tmp
+
+# Process ID and lock files
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# IDE & Editor configurations
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
