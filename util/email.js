@@ -90,12 +90,7 @@ const createOtpEmailTemplate = (otp, expiryMinutes, year) => `
       
       <div class="otp-wrapper" style="margin: 26px 0 30px 0; text-align: left;">
         <span class="otp-code" title="Tap to select and copy" style="font-size: 40px; font-weight: 800; letter-spacing: 4px; color: #013B37; display: inline-block; vertical-align: middle; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace; user-select: all; -webkit-user-select: all; cursor: pointer;">${otp}</span>
-        
-        <span title="Tap to select and copy" style="display: inline-block; vertical-align: middle; margin-left: 12px; cursor: pointer; line-height: 1;">
-          <img src="https://img.icons8.com/material-outlined/48/015E50/copy.png" width="22" height="22" alt="⧉" style="display: inline-block; vertical-align: middle; width: 22px; height: 22px; border: 0;" />
-        </span>
       </div>
-
       <p class="note" style="font-size: 13.5px; line-height: 1.6; color: #64748b; margin: 0; text-align: left;">Code expires in <strong style="color: #013B37;">${expiryMinutes} minutes</strong> &middot; Do not share this code &middot; If you didn't request this code, please ignore this email</p>
     </div>
   </body>
